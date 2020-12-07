@@ -17,7 +17,7 @@ sequelize
 // modelname attribute options
 
 const UserModel = sequelize.define(
-    "recruiter",
+    "recruiters",
     {
         // attribute
         // id firstName lastName update createdate
@@ -31,7 +31,8 @@ const UserModel = sequelize.define(
 
     ,
     {
-        // options
+        // second options for recruiter/recruiters
+        freezeTableName: true
     }
 )
 module.exports = UserModel;
