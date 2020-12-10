@@ -41,8 +41,8 @@
               <td><%=  gelen.createdAt%></td>
               <td><%=  gelen.updatedAt%></td>
               <td class="text-center">
-                <a class="btn btn-info btn-xs" href="#"><span class="glyphicon glyphicon-edit"></span> Edit</a>
-                <a href="#" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a>
+                <a class="btn btn-info btn-xs" href="/users/<%= gelen.id %>/edit"><span class="glyphicon glyphicon-edit"></span> Edit</a>
+                <a href="/users/<%= gelen.id %>/delete" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove"></span> Del</a>
               </td>
             </tr>
 
